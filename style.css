@@ -1,0 +1,20 @@
+main {
+    color: blue;
+    font-size: 14px;
+}
+
+.list {
+    font-size: 18px;
+}
+
+.war-and-peace, .Decembrists {
+    font-weight: bold;
+}
+
+.anna {
+    color: red;
+}
+
+.years {
+    color: green;
+}
