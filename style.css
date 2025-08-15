@@ -2,8 +2,16 @@
     font-family: 'TT Lakes', sans-serif;
 }
 
-@media (width < 321px) {
+@media (320px < width < 767px) {
     .uppermenu__divider1 {
+        display: none;
+    }
+
+    .main__button1 {
+        display: none;
+    }
+
+    .main__button2 {
         display: none;
     }
 
@@ -86,7 +94,7 @@
     }
 }
 
-@media (321px < width < 769px) {
+@media (768px < width < 1119px) {
     .main__text-button1 {
         display: none;
     }
@@ -126,6 +134,14 @@
         justify-content: flex-end;
     }
 
+    .main__tab1 {
+        display: none;
+    }
+
+    .main__tab2 {
+        display: none;
+    }
+
     .main__text3 {
         display: none;
     }
@@ -135,7 +151,7 @@
     }
 }
 
-@media (1119px < width) {
+@media (1120px < width) {
     .main {
         position: relative;
         bottom: 70px;
