@@ -2,7 +2,7 @@
     font-family: 'TT Lakes', sans-serif;
 }
 
-@media (320px < width < 767px) {
+@media (320px >= width <= 767px) {
     .uppermenu__divider1 {
         display: none;
     }
@@ -94,7 +94,7 @@
     }
 }
 
-@media (768px < width < 1119px) {
+@media (768px >= width <= 1119px) {
     .main__text-button1 {
         display: none;
     }
@@ -151,7 +151,7 @@
     }
 }
 
-@media (1120px < width) {
+@media (1120px <= width) {
     .main {
         position: relative;
         bottom: 70px;
